@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+  <addon id="repository.elementumorg"
+         name="Elementum Org Repo"
+         version="0.0.7"
+         provider-name="gasu95">
+
+    <extension point="xbmc.addon.repository"
+               name="Elementum Org Repo">
+      <dir>
+        <info compressed="false">.</info>
+        <checksum>addons.xml.md5</checksum>
+        <datadir zip="true">.</datadir>
+      </dir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+      <summary>Repositorio Elementum Org</summary>
+      <description>Repositorio para addons Elementum Org</description>
+      <platform>all</platform>
+    </extension>
+
+  </addon>
+</addons>
